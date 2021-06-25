@@ -2,7 +2,9 @@ function solve() {
    document.querySelector('#btnSend').addEventListener('click', onClick);
 
    function onClick () {
-      //   TODO:
+     let textAreaElement = document.querySelector('textarea');
+
+     console.log(textAreaElement.value);
       
    }
 }
