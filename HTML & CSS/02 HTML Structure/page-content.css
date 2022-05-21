@@ -1,0 +1,23 @@
+header h1 {
+    text-size-adjust: 28px;
+}
+
+header p {
+    font-style: italic;
+
+
+}
+
+p {
+    text-size-adjust: 24px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+section {
+    margin-left: 20px;
+}
