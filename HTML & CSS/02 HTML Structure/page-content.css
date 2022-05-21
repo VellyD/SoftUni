@@ -1,15 +1,14 @@
-header h1 {
-    text-size-adjust: 28px;
+header>h1 {
+    font-size: 28px;
 }
 
-header p {
+header>p {
     font-style: italic;
-
 
 }
 
 p {
-    text-size-adjust: 24px;
+    font-size: 24px;
 }
 
 body {
