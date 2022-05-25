@@ -31,25 +31,24 @@ i {
 }
 
 button {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 4px 12px;
     line-height: 20px;
     color: #ffffff;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     cursor: pointer;
 
 }
 
 button.shopping {
     background-color: #83a94c;
+    border-color: rgba(0, 0, 0, 0.1);
 }
 
 button.info {
     background-color: #008ed0;
+    border-color: rgba(0, 0, 0, 0.1);
 }
 
 button.delete {
     background-color: #cc4036;
+    border-color: rgba(0, 0, 0, 0.25);
 }
