@@ -1,5 +1,8 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+
 body {
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav {
