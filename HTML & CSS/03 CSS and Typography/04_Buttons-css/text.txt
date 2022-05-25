@@ -1,6 +1,5 @@
-Buttons CSS
 Normal Buttons
-Learn More		
+	
 Learn More
 Learn More
 		
