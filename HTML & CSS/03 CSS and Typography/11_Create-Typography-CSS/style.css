@@ -2,6 +2,7 @@ html {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    margin: 15px;
 }
 
 h1,
@@ -11,5 +12,23 @@ h4,
 h5,
 h6 {
     font-family: Georgia, serif;
-    
+
+}
+
+/* - TODO 
+table {
+
+} */
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    font-style: italic;
+}
+
+blockquote p{
+    padding-left: 10px;
+}
+
+figcaption {
+    text-align: end;
 }
