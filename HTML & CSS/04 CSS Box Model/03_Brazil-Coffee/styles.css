@@ -20,13 +20,14 @@ h2 {
 
 div {
     font-weight: 600;
-    font-size: 20px
+    font-size: 20px;
 }
 
 button {
     width: 250px;
     font-family: Work Sans, sans-serif;
     font-weight: 600;
+    font-size: 18px;
     border-radius: 4px;
     background-color: #d5384d;
     color: #fff;
@@ -41,13 +42,9 @@ button {
 
 }
 
-
 p {
-    font-family: Georgia, Cambria, Times New Roman, Times, serif;
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 30px;
     margin-top: 0;
-
-
-
 }
