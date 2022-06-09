@@ -7,9 +7,10 @@
 
 section .card {
     display: block;
-    position: absolute;
+   position: absolute;
 
 }
+
 
 section i {
     display: inline-block;
