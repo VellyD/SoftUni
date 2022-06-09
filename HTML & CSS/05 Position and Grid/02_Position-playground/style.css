@@ -7,10 +7,15 @@
 
 section .card {
     display: block;
-   position: absolute;
+    position: absolute;
 
 }
 
+section .card img {
+    margin: 0 auto;
+  
+
+}
 
 section i {
     display: inline-block;
