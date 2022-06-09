@@ -1,0 +1,20 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+.viewport {
+    background-color: lightcoral;
+    position: relative;
+}
+
+section .card {
+    display: block;
+    position: absolute;
+
+}
+
+section i {
+    display: inline-block;
+    position: relative;
+    left: -40px;
+    bottom: 20px;
+    color: #fff;
+}
