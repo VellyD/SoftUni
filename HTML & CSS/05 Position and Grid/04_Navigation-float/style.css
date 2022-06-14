@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
 .first-article img {
     float: right;
 }
@@ -12,4 +16,8 @@
     margin: 10px;
     border: 2px solid black;
     padding: 5px;
+}
+
+a {
+    color: rgb(0, 102, 0);
 }
