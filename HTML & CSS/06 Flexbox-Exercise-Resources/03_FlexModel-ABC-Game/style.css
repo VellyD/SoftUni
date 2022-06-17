@@ -15,5 +15,7 @@ html {
 }
 
 span {
-    border-radius: 1px solid black;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 }
