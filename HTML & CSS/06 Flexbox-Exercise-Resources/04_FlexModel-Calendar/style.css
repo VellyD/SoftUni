@@ -22,3 +22,7 @@ section.notes {
     flex-direction: column;
     
 }
+
+section.week {
+    flex-direction: column;
+}
