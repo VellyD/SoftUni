@@ -1,0 +1,23 @@
+body,
+ul,
+li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.section-ul {
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.section-ul li {
+    border: 5px solid black;
+    padding: 20px;
+}
+
+.section-ul img {
+    align-self: center;
+}
