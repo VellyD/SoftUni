@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    
+}
+
+section.container {
+    width: 80vw;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+section.container img {
+    width: 50%;
+    border-radius: 5px;
+}
