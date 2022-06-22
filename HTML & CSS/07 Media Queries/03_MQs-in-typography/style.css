@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(238, 238, 238);
+
+}
+
+.first img {
+    float: right;
+}
+
+.second {
+    padding: 10px;
+}
+
+.first,
+.second {
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.second img {
+    float: left;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+h1,
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: rgb(0, 102, 0);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+
+}
+
+@media screen and (max-width: 720) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 800) {
+    html {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1300) {
+    html {
+        font-size: 21px;
+    }
+}
+
+
+@media screen and (max-width: 1800) {
+    html {
+        font-size: 23px;
+    }
+}
