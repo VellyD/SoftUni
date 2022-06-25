@@ -135,11 +135,12 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 4%;
+    gap: 20px;
 }
 
 #services .cards .card {
-    max-width: 30%;
+    max-width: 60%;
+    width: 20%;
     border: 2px solid #ffd4d2;
     border-radius: 10px;
     padding: 40px 40px;
@@ -312,4 +313,8 @@ p {
 
 #footer .links-img img{
     margin-bottom: 15px;
+}
+
+#footer .links-img p{
+    color: #818181;
 }
