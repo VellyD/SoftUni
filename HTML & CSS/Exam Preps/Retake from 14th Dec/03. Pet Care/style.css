@@ -16,6 +16,8 @@ p {
 
 }
 
+
+
 /* Header */
 
 #head {
@@ -23,7 +25,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px 15px;
+    padding: 20px 200px;
 }
 
 #head .logo {
@@ -182,11 +184,13 @@ p {
 }
 
 #cat-care .image {
+    width: 500px;
+    text-align: right;
 
 }
 
 #cat-care .text {
-
+    width: 500px;
     text-align: left;
     padding: 10px 50px;
 }
@@ -217,9 +221,64 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     border: transparent;
-    background-color:#ee5414 ;
+    background-color: #ee5414;
     color: #fef1ed;
     border-radius: 25px;
     padding: 15px 35px;
     cursor: pointer;
+}
+
+/* Section contacts */
+
+#contacts {
+    background-image: url("./images/cats-bg.png");
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts .text {
+    width: 70%;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contacts .text h3 {
+    font-size: 60px;
+    margin-bottom: 25px;
+
+}
+
+#contacts .text p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+#contacts .contact-phones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#contacts .contact-phones button {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border: transparent;
+    background-color: #fff;
+    color: #ff3808;
+    border-radius: 25px;
+    padding: 15px 45px;
+    cursor: pointer;
+}
+
+#contacts .contact-phones span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
