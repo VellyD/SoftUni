@@ -282,3 +282,34 @@ p {
     font-size: 20px;
     font-weight: 600;
 }
+
+/* footer */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px;
+    text-align: left;
+}
+
+#footer .links {
+    width: 15%;
+}
+#footer .links h4 {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2d2d2d;
+    margin-bottom: 25px;
+}
+
+#footer .links li {
+    color: #878787;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#footer .links-img img{
+    margin-bottom: 15px;
+}
