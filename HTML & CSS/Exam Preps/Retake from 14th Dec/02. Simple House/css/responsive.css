@@ -2,7 +2,8 @@
 
 
 @media screen and (max-width: 600px) {
-    
+  
+
     .tm-header-inner {
         flex-direction: column;
     }
@@ -51,7 +52,7 @@
     .row .tm-description-figure {
         position: relative;
         left: 20px;
-       
+
     }
 
 
