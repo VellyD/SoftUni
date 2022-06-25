@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Header */
+
+#head {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+#head .logo {
+    width: 50%;
+    align-self: center;
+}
+
+#nav .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+#nav .nav-list a {
+    font-family: 'Open Sans', sans-serif;
+    color: #0f2b59;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Main - we care section */
+
+#we-care {
+    background-image: url("./images/header-bg.png");
+    background-repeat: round;
+    background-position: cover;
+    border-bottom-right-radius: 650px 100px;
+    border-bottom-left-radius: 650px 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#we-care .we-care-text {
+    color: #fff;
+    text-align: left;
+    width: 20%;
+    margin: 10px;
+    position: relative;
+    left: 10%;
+
+}
+
+#we-care .we-care-text h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#we-care .we-care-text .span {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#we-care .we-care-text p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+}
+
+#we-care .we-care-text .contact-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ff4a1e;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border-color: transparent;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+#we-care .photo {
+    position: relative;
+    top: 85px;
+    left: 25px;
+}
+/* photo */
