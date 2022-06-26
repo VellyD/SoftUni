@@ -69,6 +69,12 @@ body {
 
 }
 
+.whiteboard button:hover{
+    background-color: transparent;
+    border: 2px solid black;
+
+}
+
 .whiteboard a {
     text-decoration: none;
     color: white;
